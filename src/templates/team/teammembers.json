@@ -1,0 +1,33 @@
+{
+    "member1": {
+        "name": "Antony",
+        "banner_msg": "Hello there!",
+        "hobbies":[
+            "Chainsmoking",
+            "Movies",
+            "CS2"
+        ],
+        "imagepath": "src/images/mudkip.jpg"
+    },
+
+    "member2": {
+        "name": "Bella",
+        "banner_msg": "Good ventures, wanderer!",
+        "hobbies":[
+            "Travelling",
+            "Literature"
+        ],
+        "imagepath": "src/images/sunflower.jpg"
+    },
+
+    "member3": {
+        "name": "Connor",
+        "banner_msg": "Salutations, web-visitant!",
+        "hobbies":[
+            "Serial drinking",
+            "Sports",
+            "Partying"
+        ],
+        "imagepath": "src/images/kenny.jpg"
+    }
+}

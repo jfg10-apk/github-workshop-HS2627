@@ -1,0 +1,10 @@
+{
+    "name": "Kenny",
+    "banner_msg": "Hello there!",
+    "hobbies":[
+        "Serial drinking",
+        "ChainSmoking cigs",
+        "CS2"
+    ],
+    "imagepath": "../../images/kenny.jpg"
+}

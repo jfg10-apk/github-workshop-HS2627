@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        img { border-radius: 50%; width: 150px; height: 150px; object-fit: cover; }
+        .bio-card { border: 1px solid #ccc; padding: 20px; max-width: 400px; margin: 0 auto; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="bio-card">
+        <!-- Your photo -->
+        <img id="imagepath" alt="Profile picture">
+        
+        <!-- Change this to your name -->
+        <h1 id="name"></h1>
+        
+        <!-- Add a short description -->
+        <p id="banner_msg"></p>
+        
+        <h3>My Hobbies:</h3>
+
+        <ul id="hobbies"></ul>
+
+
+        <script>
+            fetch("profile.json")
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("name").textContent = data.name;
+                    document.getElementById("banner_msg").textContent = data.banner_msg;
+                    document.getElementById("imagepath").src = data.imagepath;
+
+                    const hobbies = document.getElementById("hobbies");
+                    
+                    data.hobbies.forEach( hobby => {
+                        const item = document.createElement("li");
+                        item.textContent = hobby;
+                        hobbies.appendChild(item);
+                    });
+                });
+        </script>
+    </div>
+
+</body>
+</html>
