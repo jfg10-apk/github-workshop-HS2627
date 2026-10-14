@@ -2,9 +2,9 @@
     "name": "Kenny",
     "banner_msg": "Hello there!",
     "hobbies":[
-        "Serial drinking",
-        "ChainSmoking cigs",
-        "CS2"
+        "Playing Soccer",
+        "Partying",
+        "CS"
     ],
-    "imagepath": "src/images/kenny.jpg"
+    "imagepath": "../../images/kenny.jpg"
 }

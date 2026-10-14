@@ -3,11 +3,10 @@
         "name": "Antony",
         "banner_msg": "Hello there!",
         "hobbies":[
-            "Chainsmoking",
             "Movies",
-            "CS2"
+            "CS"
         ],
-        "imagepath": "src/images/mudkip.jpg"
+        "imagepath": "../../images/mudkip.jpg"
     },
 
     "member2": {
@@ -17,17 +16,16 @@
             "Travelling",
             "Literature"
         ],
-        "imagepath": "src/images/sunflower.jpg"
+        "imagepath": "../../images/sunflower.jpg"
     },
 
     "member3": {
         "name": "Connor",
         "banner_msg": "Salutations, web-visitant!",
         "hobbies":[
-            "Serial drinking",
             "Sports",
             "Partying"
         ],
-        "imagepath": "src/images/kenny.jpg"
+        "imagepath": "../../images/kenny.jpg"
     }
 }
